@@ -1,0 +1,85 @@
+{
+"skills":
+    [
+
+        {
+            "id":1,
+            "src":"./img/product-chain-1.png",
+            "title":"Front-End",
+            "description":"HTML5, CSS3, JavaScript ES6 and React Js"
+        },
+
+        {
+            "id":2,
+            "src":"./img/tag-1.png",
+            "title":"Back-End",
+            "description":"Ruby on Rails"            
+        },
+
+        {
+            "id":3,
+            "src":"./img/feather-pen-2.png",
+            "title":"Database",
+            "description":"Postgresql, MySQL"
+        }
+    ],
+    "porfolio":
+    [
+
+        {
+            "id":1,
+            "src":"./img/motorbike.png",
+            "title":"Motorcycle booking",
+            "description":"Motorcycle appointment is a web platform designed for enthusiasts of motorcycles. It provides an opportunity to explore the newest models from top brands and make reservations for thrilling rides.",
+            "link":"https://github.com/fatmahussein/book-an-appointment"
+        },
+
+        {
+            "id":2,
+            "src":"./img/awesome.png",
+            "title":"Awesome Books",
+            "description":"A book app that adds a book and it's author, edits the book or author and deletes the book, built using HTML , CSS and JavaScript.Awesome books App for awesome people.",
+            "link":"https://github.com/fatmahussein/Awesome-books-with-ES6"
+        },
+
+        {
+            "id":3,
+            "src":"./img/spaxe.png",
+            "title":"Space Traveller's Hub",
+            "description":"I worked with the real live data from the SpaceX API. It provides commercial and scientific space-travel services. It allows users to book rockets,dragons and join selected space missions ",
+            "link":"https://github.com/fatmahussein/space-travellers-hub"
+        }
+
+    ],
+
+    "testimonial":
+    [
+        {
+            "id":1,
+            "count":"5",
+            "src":"./img/mustakim.png",
+            "description":"I am genuinely impressed with her expertise and dedication. Fatuma brings a unique blend of technical prowess and innovative thinking to the table. Not only is she adept at coding and problem-solving, but her holistic approach to web development ensures that the end product is both user-friendly and optimized for performance.",
+            "author_name":"Mustakim Masum",
+            "author_designation":"Bangladesh"
+        },
+
+        {
+            "id":2,
+            "count":"5",
+            "src":"./img/ajrass.png",
+            "description":"Beyond her technical abilities, Fatuma's enthusiasm for learning and growth is truly inspiring. She actively seeks out new challenges and continuously expands her skill set. Her commitment to staying current with industry trends and technologies is a testament to her dedication to becoming a top-notch software developer.",
+            "author_name":"Ajrass Tajemouti",
+            "author_designation":"Morocco"
+        },
+
+        {
+            "id":3,
+            "count":"5",
+            "src":"./img/moha.png",
+            "description":"Fatuma's interpersonal skills are also outstanding. She is a great communicator and collaborator, fostering a positive and productive work environment. Her ability to build strong relationships with colleagues, clients, and stakeholders has had a positive impact on our projects and overall team dynamics.",
+            "author_name":"Muhamad Newton",
+            "author_designation":"Kenya"
+        }
+
+    ]
+}
