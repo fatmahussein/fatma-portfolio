@@ -51,7 +51,7 @@ export default function MyPortfolio(){
                   width="16"
                   height="16"
                   viewBox="0 0 20 19"
-                  fill="none"
+                              fill="none"
                 >
                   <path
                     d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"

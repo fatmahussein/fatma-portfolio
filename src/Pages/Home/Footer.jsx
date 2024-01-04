@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.png" alt="Logoipsum" className="logoF" />
+          <img src="./img/logo.png" alt="Logo" className="logoF" />
         </div>
         <div className="footer--items">
           <ul>
@@ -81,7 +81,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/fartun.hussein.79656/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -102,7 +102,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/fartun_hh"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -125,7 +125,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://www.twitter.com/@FatmaHussein200"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -146,7 +146,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/fatmahusseinhassan/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
