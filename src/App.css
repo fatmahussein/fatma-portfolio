@@ -284,6 +284,7 @@ gap:21.33px
     gap:12.6px;
     grid-template-columns: repeat(8,1fr);
     width: 100%;
+    overflow-x: hidden;
   }
  
   .skills--section--img-container {
