@@ -1,19 +1,13 @@
-import Lottie , { LottieRefCurrentProps }from "lottie-react";
-import animationData from "../../data/animation.json";
-import { useRef } from "react";
-
 export default function ContactMe(){
-    const contactRef = useRef <LottieRefCurrentProps> (null)
+  
     return(
         <section id="contact" className="contact--section">
             <div>
                 <p className="sub--title"> Get In Touch</p>
                 <h2>Contact Me</h2>
             </div>
-            <div className="lottie-form">
-                <Lottie onComplete={() => {
-                    contactRef.current?.play()
-                }}  lottieRef={contactRef} className="lottie" animationData={animationData} />
+   
+
             <form action="https://formspree.io/f/mdojqvjo" method="POST" className="contact--form--container" >
                 <div className="container">
                     <label htmlFor="first-name" className="contact--label">
@@ -49,7 +43,7 @@ export default function ContactMe(){
                     </div>
                
             </form>
-            </div>
+ 
         </section>
     )
 }
