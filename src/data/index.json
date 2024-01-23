@@ -4,23 +4,33 @@
 
         {
             "id":1,
-            "src":"./img/product-chain-1.png",
-            "title":"Front-End",
-            "description":"HTML5, CSS3, JavaScript ES6 and React Js"
+            "description":"./img/html-5.svg"
         },
 
         {
             "id":2,
-            "src":"./img/tag-1.png",
-            "title":"Back-End",
-            "description":"Ruby on Rails"            
+            "description":"./img/css-3.svg"            
         },
 
         {
             "id":3,
-            "src":"./img/feather-pen-2.png",
-            "title":"Database",
-            "description":"Postgresql, MySQL"
+            "description":"./img/javascript.svg"
+        },
+        {
+            "id":4,
+            "description":"./img/react.svg"
+        },
+               {
+            "id":5,
+            "description":"./img/ruby.svg"
+        },
+        {
+            "id":6,
+            "description":"./img/rails.svg"
+        }
+        , {
+            "id":7,
+            "description":"./img/tailwindcss.svg"
         }
     ],
     "porfolio":
@@ -31,7 +41,8 @@
             "src":"./img/motorbike.png",
             "title":"Motorcycle booking",
             "description":"Motorcycle appointment is a web platform designed for enthusiasts of motorcycles. It provides an opportunity to explore the newest models from top brands and make reservations for thrilling rides.",
-            "link":"https://github.com/fatmahussein/book-an-appointment"
+            "link":"https://github.com/fatmahussein/book-an-appointment",
+            "demo":"https://motorcycle-lksr.onrender.com/"
         },
 
         {
@@ -39,7 +50,8 @@
             "src":"./img/awesome.png",
             "title":"Awesome Books",
             "description":"A book app that adds a book and it's author, edits the book or author and deletes the book, built using HTML , CSS and JavaScript.Awesome books App for awesome people.",
-            "link":"https://github.com/fatmahussein/Awesome-books-with-ES6"
+            "link":"https://github.com/fatmahussein/Awesome-books-with-ES6",
+            "demo":"https://fatmahussein.github.io/Awesome-books-with-ES6/public/index.html?"
         },
 
         {
@@ -47,7 +59,16 @@
             "src":"./img/spaxe.png",
             "title":"Space Traveller's Hub",
             "description":"I worked with the real live data from the SpaceX API. It provides commercial and scientific space-travel services. It allows users to book rockets,dragons and join selected space missions ",
-            "link":"https://github.com/fatmahussein/space-travellers-hub"
+            "link":"https://github.com/fatmahussein/space-travellers-hub",
+            "demo":"https://space-travellers-hub2023.netlify.app/"
+        },
+        {
+            "id":4,
+            "src":"./img/spaxe.png",
+            "title":"Space Traveller's Hub",
+            "description":"I worked with the real live data from the SpaceX API. It provides commercial and scientific space-travel services. It allows users to book rockets,dragons and join selected space missions ",
+            "link":"https://github.com/fatmahussein/space-travellers-hub",
+            "demo":"https://space-travellers-hub2023.netlify.app/"
         }
 
     ],

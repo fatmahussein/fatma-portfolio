@@ -3,15 +3,14 @@ export default function HeroSection(){
         <section id="hero-section" className="hero--section">
             <div className="hero--section--content--box">
             <div className="hero--section--content">
-            <p className="section--title">Hi, i'm Fatma</p>
+            <p className="section--title">Hi, i'm Fatuma,</p>
             <h1 className="hero--section--title">
-             <span className="hero--section--title--color">Full Stack</span>{""}
-             <br/>
-             Developer
+             <span className="hero--section--title--color"> 
+             Full stack  </span>{""}  {""}
+        Developer
             </h1>
-            <p className="hero--section--description text-md">
-            I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! 
-                <br/>If you like what you see and have a project you need coded, don’t hesitate to contact me.
+            <p className="hero--section--description text-sm">
+     I design and code beautifully simple things, and I love what I do.
             </p>
             </div>
             <a href="https://www.linkedin.com/in/fatmahusseinhassan/" target="_blank" rel="noopener noreferrer">

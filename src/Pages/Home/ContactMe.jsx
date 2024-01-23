@@ -1,10 +1,19 @@
+import Lottie , { LottieRefCurrentProps }from "lottie-react";
+import animationData from "../../data/animation.json";
+import { useRef } from "react";
+
 export default function ContactMe(){
+    const contactRef = useRef <LottieRefCurrentProps> (null)
     return(
         <section id="contact" className="contact--section">
             <div>
                 <p className="sub--title"> Get In Touch</p>
                 <h2>Contact Me</h2>
             </div>
+            <div className="lottie-form">
+                <Lottie onComplete={() => {
+                    contactRef.current?.play()
+                }}  lottieRef={contactRef} className="lottie" animationData={animationData} />
             <form action="https://formspree.io/f/mdojqvjo" method="POST" className="contact--form--container" >
                 <div className="container">
                     <label htmlFor="first-name" className="contact--label">
@@ -28,32 +37,19 @@ export default function ContactMe(){
                     </label>
                     </div>
 
-                    {/* <label htmlFor="choose-topic" className="contact--label">
-                    <span className="text-md">Choose a topic</span>    
-                  <select id="choose-topic" className="contact--input text-md">
-                    <option>Select One...</option>
-                    <option>Item 1</option>
-                    <option>Item 2</option>
-                    <option>Item 3</option>
-                  </select>
-                    </label> */}
 
                     <label htmlFor="message" className="contact--label">
                     <span className="text-md">Message</span>    
                    <textarea className="contact--input text-md" id="message" name="message" rows="8" maxLength="500" placeholder="Type your message..." />
                     </label>
 
-                    {/* <label htmlFor="checkbox" className="checkbox--label">
-                           <input type="checkbox" required name="checkbox" id="checkbox" />
-                            <span className="text-sm">I accept the terms</span>
-                         </label> */}
-
-
-                    <div>
+   
+                    <div> 
                         <button type="submit" className="btn btn-primary contact--form--btn">Submit</button>
                     </div>
                
             </form>
+            </div>
         </section>
     )
 }
