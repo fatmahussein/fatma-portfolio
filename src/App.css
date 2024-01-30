@@ -95,7 +95,9 @@ h1, h2, h3, h4, h5, h6,p{
   width: 100%;
 }
 /* Global css ends here */
-
+.github{
+  width: 20px;
+}
 /* Main heading */
 
 /* heading 1 */
