@@ -9,11 +9,12 @@ const Project = (props) => {
     <div className='desc'>
         <h1 className='project-title'>{title}</h1>
         <p className='project-desc'>{description}</p>
+        <li>
         <ul className='links'> 
         <a className="demo" href={demo}>Demo</a>
         <a className="demo" href={link}>Github</a>
         </ul>
-        
+        </li>
     </div>
      </container>
   )

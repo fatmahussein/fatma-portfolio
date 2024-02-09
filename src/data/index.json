@@ -28,10 +28,7 @@
             "id":6,
             "description":"./img/rails.svg"
         }
-        , {
-            "id":7,
-            "description":"./img/tailwindcss.svg"
-        }
+       
     ],
     "porfolio":
     [
