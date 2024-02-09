@@ -1,22 +1,21 @@
 import React from 'react'
 
-const Project = () => {
+const Project = (props) => {
+  const {src, title, description, link, demo} = props.item;
   return (
  <container className="projects-container">
   
-    <img src="./img/spacee.png" alt="" className='project-image' />
+    <img src={src} alt="" className='project-image' />
     <div className='desc'>
-        <h1 className='project-title'>Project</h1>
-        <p className='project-desc'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt ex commodi sapiente suscipit odio.</p>
-        <a className="demo" href='https://space-travellers-hub2023.netlify.app/'>Demo</a>
+        <h1 className='project-title'>{title}</h1>
+        <p className='project-desc'>{description}</p>
+        <ul className='links'> 
+        <a className="demo" href={demo}>Demo</a>
+        <a className="demo" href={link}>Github</a>
+        </ul>
+        
     </div>
-    
-
-
-     
-
-
- </container>
+     </container>
   )
 }
 

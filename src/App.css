@@ -613,7 +613,7 @@ display: flex;
   color: #251414;
 }
 .projects-container{
-  height: 9rem;
+  height: 13rem;
   background-color: #4e5156;
   padding: 0 0.5rem;
   border-radius: 10px;
@@ -635,7 +635,7 @@ display: flex;
   position: absolute;
   right: 0;
   left: 0;
-  bottom: -40%;
+  bottom: -9rem;
   color: #ffffff;
   text-align: left;
   padding: 0.5rem;
@@ -643,7 +643,7 @@ display: flex;
   transition: all 400ms ease-in-out;
 }
 .demo{
-  color: rgb(167, 8, 8);
+  color: rgb(8 8 167)
 }
 .desc:hover{
   bottom: 0;
@@ -656,6 +656,11 @@ display: flex;
   width: 90%;
   font-size: 0.8rem;
   color: #ffffff;
+}
+.links{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10rem;
 }
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
