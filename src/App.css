@@ -218,28 +218,30 @@ a{
 
 /* Hero section  */
 .hero--section{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+  display: flex;
   padding: 133.33px 85.333px 133.333px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   gap:32px;
   background-color:var(--bg-shade) ;
 }
 .hero--section--content--box{
 display: flex;
 flex-direction: column;
-align-items: flex-start;
+text-align: center;
 gap:32px
 }
 .hero--section--content{
 display: flex;
 flex-direction: column;
+text-align: center;
 align-items: flex-start;
 gap:21.33px
 }
 .hero--section--content--box > button{
   margin-top: 21.333px;
+ 
 }
 .hero--section--title{
   color: var(--heading-color);
@@ -643,7 +645,7 @@ display: flex;
   transition: all 400ms ease-in-out;
 }
 .demo{
-  color: rgb(8 8 167)
+  color: rgb(24, 24, 244)
 }
 .desc:hover{
   bottom: 0;
@@ -659,8 +661,8 @@ display: flex;
 }
 .links{
   display: flex;
-  justify-content: flex-start;
-  gap: 10rem;
+  justify-content: space-around;
+
 }
 .center .slick-center .projects-container{
 transform: scale(1.25);
@@ -671,7 +673,10 @@ opacity: 1;
 }
 .center .projects-container{
 opacity: 0.7;
-pointer-events: none;
+pointer-events: all;
+}
+li{
+  list-style: none;
 }
 .slick-list .slick-slider .slick-track{
 padding: 1.5rem 0;
@@ -728,8 +733,16 @@ padding: 1.5rem 0;
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
+    padding: 107.33px 11.333px 89.333px;
     padding-bottom: 70px;
   }
+  .skills--section--img {
+
+    padding: 6.3px;
+    border-radius: 0;
+     height: 132px;
+    width: 48px;
+}
   .center .slick-center .projects-container{
     transform: scale(1);
   }
@@ -778,7 +791,7 @@ margin-top: 25px;
   .about--section {
     gap: 20px;
     padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 24px;
   }
   .testimonial--section--card {
     padding: 25px;
@@ -831,7 +844,22 @@ margin-top: 25px;
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
-
+.portfolio--section {
+  padding: 44px 30px;
+  gap: 41px;
+}
+.recent{
+  font-size: 18px;
+}
+.btn-github{
+  padding: 14px 8px;
+}
+.recommendations{
+  text-align: center;
+}
+.testimonial--section{
+  padding: 0 20.3px;
+}
 @media screen and (max-width: 1200px) {
   .nav__hamburger {
     display: flex;
@@ -892,5 +920,13 @@ margin-top: 25px;
 {
   .center .slick-center .projects-container{
     transform: scale(1);
+    pointer-events: all;
+  }
+}
+
+@media screen and (max-width: 500px)
+{
+.projects-container{
+width: 90%;
   }
 }

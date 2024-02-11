@@ -6,7 +6,7 @@ export default function Testimonial(){
         <div className="portfolio--container--box">
             <div className="portfolio--container">
             
-                <h2 className="sections--heading">
+                <h2 className="sections--heading recommendations">
                    Recommendations
                 </h2>
             </div>

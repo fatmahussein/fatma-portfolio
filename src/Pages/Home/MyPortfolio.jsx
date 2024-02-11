@@ -6,7 +6,7 @@ export default function MyPortfolio(){
             <div className="portfolio--content--box">
               
                 <div className="portfolio--container">
-                   <h2 className="section--heading">  Recent Projects </h2>
+                   <h2 className="section--heading recent">  Recent Projects </h2>
                 </div>
                  <div>
                  <a href="https://github.com/fatmahussein" target="_blank" rel="noopener noreferrer">
