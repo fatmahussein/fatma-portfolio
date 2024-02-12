@@ -27,17 +27,17 @@ let data = [
 
       "src":"./img/spaxe.png",
       "title":"Space Traveller's Hub",
-      "description":"lorem ",
+      "description":"Web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets,dragons and join selected space missions",
       "link":"https://github.com/fatmahussein/space-travellers-hub",
       "demo":"https://space-travellers-hub2023.netlify.app/"
   },
   {
 
-      "src":"./img/spaxe.png",
-      "title":"Space Traveller's Hub",
-      "description":"lorem",
-      "link":"https://github.com/fatmahussein/space-travellers-hub",
-      "demo":"https://space-travellers-hub2023.netlify.app/"
+      "src":"./img/math-magician.png",
+      "title":"Math Magician ",
+      "description":"Math-magician is a web application designed for mathematics enthusiasts. It is a Single Page App (SPA) that provides users with the ability to perform simple calculations and discover random math-related quotes.",
+      "link":"https://github.com/fatmahussein/Math-Magicians",
+      "demo":"https://math-magicians-w47s.onrender.com/"
   }
 
 ];
@@ -84,8 +84,8 @@ var settings = {
       breakpoint: 500,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 0,
-        centerMode: "true",
+        slidesToScroll: 1,
+        centerMode: "false",
         
       }
     }
